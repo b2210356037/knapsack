@@ -30,7 +30,7 @@ int main() {
     int total = 7;
     vector<int> weights = {1, 3, 4, 5};
     vector<int> values = {1, 4, 5, 7}; 
-	int res = knapsack(weights, values, total);
+    int res = knapsack(weights, values, total);
     cout << res;
     return 0;
 }
